@@ -1,0 +1,33 @@
+{
+  "name": "EventEmitter",
+  "address": "0xB504dee4a7640dF61D6Ff717d26e4A1e6a44Af96",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "emitCountLog",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "msgSender",
+          "type": "address"
+        }
+      ],
+      "name": "WantsToCount",
+      "type": "event"
+    }
+  ],
+  "filePath": "ChainLink-Projects.git/contracts/log-trigger/EventEmitter.sol",
+  "pinnedAt": 1770994167205
+}
